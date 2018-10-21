@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Homework2</title>
+</head>
+<body>
+
+<!-- 1. Среди трех чисел найти среднее арифметическое. Если среди чисел есть равные, вывести сообщение "Ошибка". Числа принять от пользователя.
+		-->
+<script type="text/javascript">
+	var numberOne= prompt("Введите певрое число", "");
+	var numberTwo= prompt("Введите второе число","");
+	var numberThree= prompt("Введите третье число","");
+	var numberAverage= (+numberOne + +numberTwo + +numberThree)/3;
+	if (numberOne==numberTwo || numberOne==numberThree || numberTwo==numberThree) {
+		alert("Ошибка");
+		}
+		else {
+		alert("Среднее число:"+ numberAverage);
+
+		}
+</script>
+
+<!-- 2. Построить прямоугольный треугольник состоящий из символа "*". -->
+<script type="text/javascript">
+	   for (var i = 0; i < 1; i++) {
+            for (var j = 0; j < 1; j++)  {
+                document.write("* ");
+            }
+            document.write("<br/>");
+        
+       }
+       for (var i = 0; i < 1; i++) {
+			for (var j = 0; j < 2; j++)  {
+                document.write("* ");
+            }
+			document.write("<br/>");
+        
+       }
+       for (var i = 0; i < 1; i++) {
+			for (var j = 0; j < 3; j++)  {
+                document.write("* ");
+            }
+			document.write("<br/>");
+        
+       }
+       for (var i = 0; i < 1; i++) {
+			for (var j = 0; j < 4; j++)  {
+                document.write("* ");
+         	}
+			document.write("<br/>");
+        
+       }   
+  </script>
+</body>
+</html>
