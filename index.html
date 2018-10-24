@@ -8,7 +8,7 @@
 
 <!-- 1. Среди трех чисел найти среднее арифметическое. Если среди чисел есть равные, вывести сообщение "Ошибка". Числа принять от пользователя.
 		-->
-<script type="text/javascript">
+<script>
 	var numberOne= prompt("Введите первое число", "");
 	var numberTwo= prompt("Введите второе число","");
 	var numberThree= prompt("Введите третье число","");
@@ -24,7 +24,7 @@
 </script>
 
 <!-- 2. Построить прямоугольный треугольник состоящий из символа "*". -->
-<script type="text/javascript">
+<script>
 	   for (var i = 0; i < 1; i++) {
             for (var j = 0; j < 1; j++)  {
                 document.write("* ");
@@ -69,6 +69,21 @@
 		else if(c>a&&c>b){
 			alert("Максимальное число" +c)
 		}
+</script>
+<script>
+	var A=5;
+	var B=10;
+	document.write("Минимальное число А: " +A);
+	document.write("<br/>");
+	document.write("Максимальное число В: " +B);
+	document.write("<br/>");
+	document.write("Нечетные числа промежутке между А и В: ");
+	document.write("<br/>");
+
+	 for(i=5; i < 10; i++) {
+	 	if(i%2==0) continue;
+	 	document.write(i);
+	 }	 	 	
 </script>
 </body>
 </html>
