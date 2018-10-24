@@ -9,15 +9,15 @@
 <!-- 1. Среди трех чисел найти среднее арифметическое. Если среди чисел есть равные, вывести сообщение "Ошибка". Числа принять от пользователя.
 		-->
 <script>
-	var numberOne= prompt("Введите первое число", "");
-	var numberTwo= prompt("Введите второе число","");
-	var numberThree= prompt("Введите третье число","");
+	var numberOne=+_prompt("Введите первое число", "");
+	var numberTwo=+prompt("Введите второе число","");
+	var numberThree=+prompt("Введите третье число","");
 	var numberAverage= (+numberOne + +numberTwo + +numberThree)/3;
 	if (numberOne==numberTwo || numberOne==numberThree || numberTwo==numberThree) {
 		alert("Ошибка");
 		}
 		else {
-		alert("Среднее число:"+ numberAverage);
+		alert("Среднее число: " + numberAverage);
 
 		}
 
@@ -70,6 +70,10 @@
 			alert("Максимальное число" +c)
 		}
 </script>
+
+<!-- 4. Дано два числа A и B где (A<B). 
+    Выведите на экран суму всех чисел расположенных в числовом промежутке от А до В. 
+    Выведите на экран все нечетные значения, расположенные в числовом промежутке от А до В.  -->  
 <script>
 	var A=5;
 	var B=10;
